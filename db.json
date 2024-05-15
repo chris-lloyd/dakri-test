@@ -1,0 +1,50 @@
+{
+  "rentalTools": [
+    {
+      "id": "01",
+      "toolRef": "6465",
+      "teamMember": "Alex Norman",
+      "status": "Completed",
+      "duration": "15:00"
+    },
+    {
+      "id": "02",
+      "toolRef": "5665",
+      "teamMember": "Razib Rahman",
+      "status": "In Progress",
+      "duration": "05:00"
+    },
+    {
+      "id": "03",
+      "toolRef": "1755",
+      "teamMember": "Luke Norton",
+      "status": "Not Started",
+      "duration": "00:00"
+    }
+  ],
+  "workOrderStatus": [
+    { "id": "1", "status": "Completed", "total": "7" },
+    { "id": "2", "status": "Work In Progress", "total": "3" },
+    { "id": "3", "status": "Due", "total": "2" }
+  ],
+  "restockItems": [
+    {
+      "id": "01",
+      "toolRef": "6465",
+      "toolEquipment": "Screws",
+      "status": "Low"
+    },
+    {
+      "id": "02",
+      "toolRef": "6466",
+      "toolEquipment": "Wires (electrical)",
+      "status": "None"
+    },
+    {
+      "id": "03",
+      "toolRef": "6467",
+      "toolEquipment": "Bolts",
+      "status": "None"
+    }
+  ]
+}
